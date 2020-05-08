@@ -1,5 +1,5 @@
 import './style.css';
-import './App.ts';
+import './App.js';
 
 function component() {
   const element = document.createElement('div');
