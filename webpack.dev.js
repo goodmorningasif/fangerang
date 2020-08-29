@@ -3,7 +3,7 @@ const common = require('./webpack.common.js');
 
 module.exports = merge(common, {
   mode: 'development',
-  devtool: 'inline-source-map',
+  devtool: 'source-map',
   devServer: {
     contentBase: './dist',
   },
@@ -29,13 +29,20 @@ module.exports = merge(common, {
         ],
       },
       {
-        test: /\.tsx?$/,
-        use: 'ts-loader',
+        test: /\.ts(x)?$/,
+        use: {
+          loader: 'ts-loader'
+        },
         exclude: /node_modules/,
+      },
+      {
+        enforce: "pre",
+        test: /\.js$/,
+        loader: "source-map-loader"
       }
     ],
   },
   resolve: {
-    extensions: ['.tsx', '.ts', '.js'],
+    extensions: ['.tsx', '.ts', '.js']
   }
 });

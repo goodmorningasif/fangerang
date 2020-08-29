@@ -3,13 +3,13 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  entry: './src/index.ts',
+  entry: './src/index.tsx',
   plugins: [
     new CleanWebpackPlugin({
       cleanStaleWebpackAssets: false,
     }),
     new HtmlWebpackPlugin({
-      title: 'Fangarang',
+      template: './index.html'
     }),
   ],
   output: {
