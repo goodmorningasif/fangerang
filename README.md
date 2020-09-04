@@ -1,2 +1,2 @@
-# Fangerang
-Another repo.
+# Project Fang
+Details coming soong ...
