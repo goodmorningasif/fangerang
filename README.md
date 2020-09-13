@@ -10,4 +10,4 @@ The final goal is to experiment with the UI. The project should have it's own co
 
 See [Design Doc][designDoc] for more details.
 
-[designDoc]: (./DESIGN_DOC.md)
+[designDoc]: DESIGN_DOC.md
