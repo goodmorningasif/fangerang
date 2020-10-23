@@ -1,5 +1,5 @@
-import * as React from 'react';
+import { h } from "preact";
 
 export function App(){
-  return <div>Hello world</div>
+  return <div>Fangerang</div>
 }

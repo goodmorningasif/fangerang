@@ -1,9 +1,11 @@
-import * as React from 'react';
-import * as ReactDOM from 'react-dom';
+import { h, render } from 'preact';
 import './style.css';
 import { App } from './App';
 
-ReactDOM.render(
+let root;
+
+root = render(
   <App />,
-  document.getElementById("root")
+  document.getElementById("root"),
+  root
 )
