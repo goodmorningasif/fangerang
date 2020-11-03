@@ -10,7 +10,8 @@ const options = {
 webpackDevServer.addDevServerEntrypoints(config, options);
 const compiler = webpack(config);
 const server = new webpackDevServer(compiler, options);
+const port = process.env.PORT || 5000;
 
-server.listen(process.env.PORT || 5000, function() {
-  console.log('Fangarang listening on port 5000!\n');
+server.listen(port, function() {
+  console.log(`Fangarang listening on port ${port}}!\n`);
 });
