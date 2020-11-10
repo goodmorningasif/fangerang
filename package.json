@@ -1,7 +1,7 @@
 {
-  "name": "Fangerang",
+  "name": "fang",
   "version": "1.0.0",
-  "private": "true",
+  "private": "false",
   "scripts": {
     "tests": "echo test",
     "watch": "webpack --watch",

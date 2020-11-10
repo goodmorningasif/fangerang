@@ -8,7 +8,7 @@ module.exports = merge(common, {
     compress: true,
     inline: true,
     allowedHosts: [
-      '.amazonaws.com'
+      '.herokuapp.com'
   ]
   }
 })
