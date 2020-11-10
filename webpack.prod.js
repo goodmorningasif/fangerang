@@ -3,5 +3,12 @@ const common = require('./webpack.common.js');
 
 module.exports = merge(common, {
   mode: 'production',
-  devtool: 'source-map'
+  devtool: 'source-map',
+  devServer: {
+    compress: true,
+    inline: true,
+    allowedHosts: [
+      '.amazonaws.com'
+  ]
+  }
 })
