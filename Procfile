@@ -1,1 +1,1 @@
-web: npm run build
+web: PORT=$PORT node ./dist/index.js
