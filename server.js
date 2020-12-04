@@ -12,5 +12,5 @@ app.use(express.static(__dirname + '/dist'));
 // .get('/', (req, res) => res.sendFile(path.join(__dirname, 'dist/index.html')))
 app.get('/', (res, req) => res.send(JSON.stringify({ Hello: 'World'})));
 
-app.listen(port, () => console.log(`Listening on port ${port} : ${process.env.PORT} : ${JSON.stringify(process)}`));
+app.listen(port, () => console.log(`Listening on port ${port} : ${process.env.PORT}`));
 
