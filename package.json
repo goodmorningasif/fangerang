@@ -12,7 +12,7 @@
     "start__old": "webpack-dev-server --open --config webpack.dev.js",
     "start": "node server.js",
     "server": "node server.js",
-    "prod": "webpack --config webpack.prod.js",
+    "prod": "webpack --config webpack.prod.js"
   },
   "keywords": [],
   "author": "Asifuzzaman Ahmed",
