@@ -1,6 +1,6 @@
 {
   "name": "fang",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "private": "false",
   "main": "server.js",
   "engines": {
@@ -12,7 +12,7 @@
     "start": "webpack-dev-server --open --config webpack.dev.js",
     "server": "node server.js",
     "prod": "webpack --config webpack.prod.js",
-    "build": "NODE_ENV=production node server.js"
+    "build": "node server.js"
   },
   "keywords": [],
   "author": "Asifuzzaman Ahmed",
