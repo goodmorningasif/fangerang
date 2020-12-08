@@ -1,18 +1,18 @@
 {
   "name": "fang",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "private": "false",
   "main": "server.js",
   "engines": {
-    "node": "10.15.3"
+    "node": "10.x"
   },
   "scripts": {
     "tests": "echo test",
     "watch": "webpack --watch",
-    "start": "webpack-dev-server --open --config webpack.dev.js",
+    "start__old": "webpack-dev-server --open --config webpack.dev.js",
+    "start": "node server.js",
     "server": "node server.js",
     "prod": "webpack --config webpack.prod.js",
-    "build": "node server.js"
   },
   "keywords": [],
   "author": "Asifuzzaman Ahmed",
