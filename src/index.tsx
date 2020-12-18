@@ -1,11 +1,11 @@
 import { h, render } from 'preact';
 import './style.css';
-import { App } from './App';
+// import { App } from './App';
 
 let root;
 
 root = render(
-  <App />,
+  <div>hello guy</div>,
   document.getElementById("root"),
   root
 )
