@@ -1,5 +1,5 @@
-import { h } from "preact";
+import { h } from 'preact';
 
 export function App(){
-  return <div>Fangerang</div>
+    return <div>Fangerang</div>;
 }

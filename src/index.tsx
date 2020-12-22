@@ -5,7 +5,7 @@ import { App } from './App';
 let root;
 
 root = render(
-  <App />,
-  document.getElementById("root"),
-  root
-)
+    <App />,
+    document.getElementById('root'),
+    root
+);
