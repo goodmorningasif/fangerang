@@ -7,25 +7,20 @@
         "es6": true
     },
     "extends": [
-        "eslint:recommended",
-        "plugin:@typescript-eslint/eslint-recommended",
-        "plugin:@typescript-eslint/recommended"
+        "plugin:@typescript-eslint/eslint-recommended"
       ],
     "parserOptions": {
-        "ecmaFeatures": {
-            "jsx": true
-        },
         "ecmaVersion": 2018,
         "sourceType": "module"
     },
     "plugins": [
-        "react",
+        "preact",
         "@typescript-eslint"
     ],
     "rules": {
         "indent": [
             "error",
-            4
+            2
         ],
         "linebreak-style": [
             "error",
@@ -39,5 +34,5 @@
             "error",
             "always"
         ]
-    }
+    },
 }
