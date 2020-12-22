@@ -38,10 +38,10 @@ module.exports = {
         ],
       },
       {
-        test: /\.tsx?$/,
-        use: {
-          loader: 'ts-loader'
-        },
+        test: /\.(ts|tsx)?$/,
+        use: [
+          'ts-loader',
+       ],
         exclude: /node_modules/,
       },
       {
